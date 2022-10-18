@@ -1,0 +1,29 @@
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+a.idTop {
+    position: fixed; /*позиционирование кнопки фиксированное*/
+    z-index: 9999; /*отображаем поверх всех элементов*/
+    bottom: 0%; /*положение снизу*/
+    right: 0%; /*положение справа*/
+    background: gray; /*фон, можно указать любую картинку*/
+    opacity: .6; /*прозрачность*/
+    color: #fff; /*цвет текста*/
+    padding: 10px; /*внутренние отступы*/
+    margin: 5px 15px 15px 5px; /*внешние отступы*/
+   }
+   a.idTop:hover {
+    opacity: 1;
+   }
